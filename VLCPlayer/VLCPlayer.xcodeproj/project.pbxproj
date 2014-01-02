@@ -1,0 +1,475 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		14A0210E1875859600BD7FE9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14A0210D1875859600BD7FE9 /* Foundation.framework */; };
+		14A021101875859600BD7FE9 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14A0210F1875859600BD7FE9 /* CoreGraphics.framework */; };
+		14A021121875859600BD7FE9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14A021111875859600BD7FE9 /* UIKit.framework */; };
+		14A021181875859600BD7FE9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 14A021161875859600BD7FE9 /* InfoPlist.strings */; };
+		14A0211A1875859600BD7FE9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 14A021191875859600BD7FE9 /* main.m */; };
+		14A0211E1875859700BD7FE9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 14A0211D1875859600BD7FE9 /* AppDelegate.m */; };
+		14A021211875859700BD7FE9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 14A0211F1875859700BD7FE9 /* Main.storyboard */; };
+		14A021241875859700BD7FE9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 14A021231875859700BD7FE9 /* ViewController.m */; };
+		14A021261875859700BD7FE9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 14A021251875859700BD7FE9 /* Images.xcassets */; };
+		14A0212D1875859700BD7FE9 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14A0212C1875859700BD7FE9 /* XCTest.framework */; };
+		14A0212E1875859700BD7FE9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14A0210D1875859600BD7FE9 /* Foundation.framework */; };
+		14A0212F1875859700BD7FE9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14A021111875859600BD7FE9 /* UIKit.framework */; };
+		14A021371875859700BD7FE9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 14A021351875859700BD7FE9 /* InfoPlist.strings */; };
+		14A021391875859700BD7FE9 /* VLCPlayerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 14A021381875859700BD7FE9 /* VLCPlayerTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		14A021301875859700BD7FE9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 14A021021875859600BD7FE9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 14A021091875859600BD7FE9;
+			remoteInfo = VLCPlayer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		14A0210A1875859600BD7FE9 /* VLCPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VLCPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		14A0210D1875859600BD7FE9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		14A0210F1875859600BD7FE9 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		14A021111875859600BD7FE9 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		14A021151875859600BD7FE9 /* VLCPlayer-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "VLCPlayer-Info.plist"; sourceTree = "<group>"; };
+		14A021171875859600BD7FE9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		14A021191875859600BD7FE9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		14A0211B1875859600BD7FE9 /* VLCPlayer-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "VLCPlayer-Prefix.pch"; sourceTree = "<group>"; };
+		14A0211C1875859600BD7FE9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		14A0211D1875859600BD7FE9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		14A021201875859700BD7FE9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		14A021221875859700BD7FE9 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		14A021231875859700BD7FE9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		14A021251875859700BD7FE9 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		14A0212B1875859700BD7FE9 /* VLCPlayerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VLCPlayerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		14A0212C1875859700BD7FE9 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		14A021341875859700BD7FE9 /* VLCPlayerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "VLCPlayerTests-Info.plist"; sourceTree = "<group>"; };
+		14A021361875859700BD7FE9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		14A021381875859700BD7FE9 /* VLCPlayerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VLCPlayerTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		14A021071875859600BD7FE9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14A021101875859600BD7FE9 /* CoreGraphics.framework in Frameworks */,
+				14A021121875859600BD7FE9 /* UIKit.framework in Frameworks */,
+				14A0210E1875859600BD7FE9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		14A021281875859700BD7FE9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14A0212D1875859700BD7FE9 /* XCTest.framework in Frameworks */,
+				14A0212F1875859700BD7FE9 /* UIKit.framework in Frameworks */,
+				14A0212E1875859700BD7FE9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		14A021011875859600BD7FE9 = {
+			isa = PBXGroup;
+			children = (
+				14A021131875859600BD7FE9 /* VLCPlayer */,
+				14A021321875859700BD7FE9 /* VLCPlayerTests */,
+				14A0210C1875859600BD7FE9 /* Frameworks */,
+				14A0210B1875859600BD7FE9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		14A0210B1875859600BD7FE9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				14A0210A1875859600BD7FE9 /* VLCPlayer.app */,
+				14A0212B1875859700BD7FE9 /* VLCPlayerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		14A0210C1875859600BD7FE9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				14A0210D1875859600BD7FE9 /* Foundation.framework */,
+				14A0210F1875859600BD7FE9 /* CoreGraphics.framework */,
+				14A021111875859600BD7FE9 /* UIKit.framework */,
+				14A0212C1875859700BD7FE9 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		14A021131875859600BD7FE9 /* VLCPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				14A0211C1875859600BD7FE9 /* AppDelegate.h */,
+				14A0211D1875859600BD7FE9 /* AppDelegate.m */,
+				14A0211F1875859700BD7FE9 /* Main.storyboard */,
+				14A021221875859700BD7FE9 /* ViewController.h */,
+				14A021231875859700BD7FE9 /* ViewController.m */,
+				14A021251875859700BD7FE9 /* Images.xcassets */,
+				14A021141875859600BD7FE9 /* Supporting Files */,
+			);
+			path = VLCPlayer;
+			sourceTree = "<group>";
+		};
+		14A021141875859600BD7FE9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				14A021151875859600BD7FE9 /* VLCPlayer-Info.plist */,
+				14A021161875859600BD7FE9 /* InfoPlist.strings */,
+				14A021191875859600BD7FE9 /* main.m */,
+				14A0211B1875859600BD7FE9 /* VLCPlayer-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		14A021321875859700BD7FE9 /* VLCPlayerTests */ = {
+			isa = PBXGroup;
+			children = (
+				14A021381875859700BD7FE9 /* VLCPlayerTests.m */,
+				14A021331875859700BD7FE9 /* Supporting Files */,
+			);
+			path = VLCPlayerTests;
+			sourceTree = "<group>";
+		};
+		14A021331875859700BD7FE9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				14A021341875859700BD7FE9 /* VLCPlayerTests-Info.plist */,
+				14A021351875859700BD7FE9 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		14A021091875859600BD7FE9 /* VLCPlayer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 14A0213C1875859700BD7FE9 /* Build configuration list for PBXNativeTarget "VLCPlayer" */;
+			buildPhases = (
+				14A021061875859600BD7FE9 /* Sources */,
+				14A021071875859600BD7FE9 /* Frameworks */,
+				14A021081875859600BD7FE9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VLCPlayer;
+			productName = VLCPlayer;
+			productReference = 14A0210A1875859600BD7FE9 /* VLCPlayer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		14A0212A1875859700BD7FE9 /* VLCPlayerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 14A0213F1875859700BD7FE9 /* Build configuration list for PBXNativeTarget "VLCPlayerTests" */;
+			buildPhases = (
+				14A021271875859700BD7FE9 /* Sources */,
+				14A021281875859700BD7FE9 /* Frameworks */,
+				14A021291875859700BD7FE9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				14A021311875859700BD7FE9 /* PBXTargetDependency */,
+			);
+			name = VLCPlayerTests;
+			productName = VLCPlayerTests;
+			productReference = 14A0212B1875859700BD7FE9 /* VLCPlayerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		14A021021875859600BD7FE9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = zhoulong;
+				TargetAttributes = {
+					14A0212A1875859700BD7FE9 = {
+						TestTargetID = 14A021091875859600BD7FE9;
+					};
+				};
+			};
+			buildConfigurationList = 14A021051875859600BD7FE9 /* Build configuration list for PBXProject "VLCPlayer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 14A021011875859600BD7FE9;
+			productRefGroup = 14A0210B1875859600BD7FE9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				14A021091875859600BD7FE9 /* VLCPlayer */,
+				14A0212A1875859700BD7FE9 /* VLCPlayerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		14A021081875859600BD7FE9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14A021261875859700BD7FE9 /* Images.xcassets in Resources */,
+				14A021181875859600BD7FE9 /* InfoPlist.strings in Resources */,
+				14A021211875859700BD7FE9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		14A021291875859700BD7FE9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14A021371875859700BD7FE9 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		14A021061875859600BD7FE9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14A021241875859700BD7FE9 /* ViewController.m in Sources */,
+				14A0211E1875859700BD7FE9 /* AppDelegate.m in Sources */,
+				14A0211A1875859600BD7FE9 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		14A021271875859700BD7FE9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14A021391875859700BD7FE9 /* VLCPlayerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		14A021311875859700BD7FE9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 14A021091875859600BD7FE9 /* VLCPlayer */;
+			targetProxy = 14A021301875859700BD7FE9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		14A021161875859600BD7FE9 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				14A021171875859600BD7FE9 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		14A0211F1875859700BD7FE9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				14A021201875859700BD7FE9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		14A021351875859700BD7FE9 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				14A021361875859700BD7FE9 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		14A0213A1875859700BD7FE9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		14A0213B1875859700BD7FE9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		14A0213D1875859700BD7FE9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "VLCPlayer/VLCPlayer-Prefix.pch";
+				INFOPLIST_FILE = "VLCPlayer/VLCPlayer-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		14A0213E1875859700BD7FE9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "VLCPlayer/VLCPlayer-Prefix.pch";
+				INFOPLIST_FILE = "VLCPlayer/VLCPlayer-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		14A021401875859700BD7FE9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/VLCPlayer.app/VLCPlayer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "VLCPlayer/VLCPlayer-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "VLCPlayerTests/VLCPlayerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		14A021411875859700BD7FE9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/VLCPlayer.app/VLCPlayer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "VLCPlayer/VLCPlayer-Prefix.pch";
+				INFOPLIST_FILE = "VLCPlayerTests/VLCPlayerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		14A021051875859600BD7FE9 /* Build configuration list for PBXProject "VLCPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14A0213A1875859700BD7FE9 /* Debug */,
+				14A0213B1875859700BD7FE9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		14A0213C1875859700BD7FE9 /* Build configuration list for PBXNativeTarget "VLCPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14A0213D1875859700BD7FE9 /* Debug */,
+				14A0213E1875859700BD7FE9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		14A0213F1875859700BD7FE9 /* Build configuration list for PBXNativeTarget "VLCPlayerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14A021401875859700BD7FE9 /* Debug */,
+				14A021411875859700BD7FE9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 14A021021875859600BD7FE9 /* Project object */;
+}
